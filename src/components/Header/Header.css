@@ -1,0 +1,78 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 103px;
+    padding: 0 100px;
+}
+
+.sour-logo {
+    width: 105px;
+    height: 59px;
+    cursor: pointer;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.buttonsContainer button {
+    font-family: 'poppins';
+    font-size: 15.99px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.home-button {
+    background-color: transparent;
+    color: #515151;
+}
+
+.home-button:hover {
+    color: black;
+}
+
+.about-us-button {
+    background-color: transparent;
+    color: #515151;
+}
+
+.about-us-button:hover {
+    color: black;
+}
+
+.description-button {
+    background-color: transparent;
+    color: #515151;
+}
+
+.description-button:hover {
+    color: black;
+}
+
+.rules-button {
+    background-color: transparent;
+    color: #515151;
+}
+
+.rules-button:hover {
+    color: black;
+}
+
+.play-header-button {
+    background-color: #FD5A47;
+    color: white;
+    border-radius: 8.26px;
+    padding: 13px 28px;
+}
+
+
+.play-header-button:hover {
+    background-color: #552CB8;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
